@@ -1,0 +1,23 @@
+{
+    "Best Buy" :
+        {   
+            "referer" : "https://www.bestbuy.com/",
+            "products" : [
+                {
+                    "product_name": "Pokémon - Trading Card Game - Scarlet & Violet Journey Together Elite Trainer Box", 
+                    "product_link": "https://www.bestbuy.com/site/pokemon-trading-card-game-scarlet-violet-journey-together-elite-trainer-box/6614267.p?skuId=6614267"
+                }
+            ]
+            
+        },
+    "Target" :
+        {
+            "referer" : "https://www.target.com/",
+            "products" : [
+                {
+                    "product_name": "Pokémon Trading Card Game: Scarlet & Violet— Journey Together Booster Bundle", 
+                    "product_link": "https://www.target.com/p/pok-233-mon-trading-card-game-scarlet-38-violet-8212-journey-together-booster-bundle/-/A-94300074#lnk=sametab"
+                }
+            ]
+        }
+}

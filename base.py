@@ -3,19 +3,6 @@ from bs4 import BeautifulSoup
 
 from twilio.rest import Client
 
-bbURL = "https://www.bestbuy.com/site/pokemon-trading-card-game-scarlet-violet-journey-together-elite-trainer-box/6614267.p?skuId=6614267"
-targetURL = "https://www.target.com/p/pok-233-mon-trading-card-game-scarlet-38-violet-8212-journey-together-booster-bundle/-/A-94300074#lnk=sametab"
-
-def checkUrl(incUrl):
-    url = incUrl.get().strip()
-    if not url:
-        return False
-    return True
-
-def update_BB_url(incBBUrl):
-    global bbUrl
-    bbUrl = incBBUrl
-
 def check_BB():
     # Headers to mimic a real browser
     headers = {
