@@ -19,7 +19,7 @@ def check_BB():
 
     # Check if request is blocked
     if response.status_code == 403:
-        print("Blocked by Best Buy!")
+        return "Blocked by Best Buy!"
     else:
         # Parse HTML
         soup = BeautifulSoup(response.content, "html.parser")
@@ -31,14 +31,17 @@ def check_BB():
 
 
         if button and "disabled" in button.attrs:
-            print("Item is NOT AVAILABLE.")
+            stock_status = "Item is NOT AVAILABLE."
         else:
-            print("Item is IN STOCK for " + price + "!")
+            stock_status = "Item is IN STOCK for " + price + "!"
+
+    return stock_status
     
 
-schedule.every(5).seconds.do(check_BB)
+def run_scraper():
+    schedule.every(5).seconds.do(check_BB)
 
-while True:
-    schedule.run_pending()
-    time.sleep
+    while True:
+        schedule.run_pending()
+        time.sleep
 
