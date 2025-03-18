@@ -17,8 +17,13 @@
             "products" : [
                 {
                     "product_name": "Pokémon Trading Card Game: Scarlet & Violet— Journey Together Booster Bundle", 
-                    "product_link": "https://www.target.com/p/pok-233-mon-trading-card-game-scarlet-38-violet-8212-journey-together-booster-bundle/-/A-94300074#lnk=sametab",
+                    "product_link": "https://www.target.com/p/pok-233-mon-trading-card-game-meowscarada-ex-deluxe-battle-deck/-/A-89542107#lnk=sametab",
                     "custom_name": "Journey Together 6 Pack Booster"
+                },
+                {
+                    "product_name": "Charizard EX Bundle", 
+                    "product_link": "https://www.target.com/p/pok-233-mon-trading-card-game-scarlet-38-violet-8212-journey-together-booster-bundle/-/A-94300074#lnk=sametab",
+                    "custom_name": "randmo bunlde"
                 }
             ]
         }
